@@ -1,0 +1,65 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+header h1{
+    font-weight: 400;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    border: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left:3rem
+
+}
+li{
+    list-style:none;  /*to remove bullets around list items */
+    font-size: 1.4rem;;
+}
+nav{
+    position: relative;
+    top:  1rem;
+    right: 3rem;
+    width: 25rem;
+}
+.showcase{
+    width: 95vw;
+    margin: 1rem;
+}
+article
+{
+    display: flex;
+    margin: 1.5rem;
+}
+.container{
+   text-align: center;
+   margin-right: 1.5rem;
+   padding: 1rem;
+   font-size: 1.5rem;
+}
+h2{
+    font-weight: 600;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 4rem;
+   /* text-align: center;   */
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+   font-size: 1.5rem;
+}
+a{
+    color: black;
+    text-decoration: none;     /*TO REMOVE UNDDERLINE FROM ANCHOR TAGS*/
+}
+a:hover{          /*PSEUDO CLASS FOR HOVERING EFFECTS*/
+    color: red;
+    font-size: medium;
+}
